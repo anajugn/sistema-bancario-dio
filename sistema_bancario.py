@@ -1,4 +1,4 @@
-menu = """
+opcoes = """
 [d] Depositar
 [s] Sacar
 [e] Extrato
@@ -13,7 +13,7 @@ LIMITE_SAQUES = 3
 
 while True:
 
-    opcao = input(menu)
+    opcao = input(opcoes)
 
     if opcao == "d":
         valor = float(input("Informe o valor de depósitos: "))
@@ -56,4 +56,4 @@ while True:
         break
 
     else:
-        print("Operação inválida, por favor seleicone novamente a operação desejada.")
+        print("Operação inválida, por favor selecione novamente a operação desejada.")
